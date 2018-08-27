@@ -108,7 +108,7 @@ public class MainActivity extends Activity {
             protected void onPostExecute(Void result) {
                 super.onPostExecute(result);
 
-                if(jsonString.equals("")||!gotAnswer){
+                if(jsonString.equals("")||jsonString==null||!gotAnswer){
 
                     currencyList = dbSharedData.readData();
 
