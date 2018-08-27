@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CurrencyCalculator</string>
+    <string name="choose_currency_from">Пересчитать из:</string>
+    <string name="choose_currency_to">Пересчитать в:</string>
+    <string name="RUR">Российский рубль</string>
+</resources>
